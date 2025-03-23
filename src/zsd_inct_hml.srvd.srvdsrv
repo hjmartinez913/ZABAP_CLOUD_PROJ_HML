@@ -1,0 +1,11 @@
+@EndUserText.label: 'SD - Incidents'
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_INCT_HML'
+  }
+}
+define service ZSD_INCT_HML
+  provider contracts odata_v4_ui {
+  expose ZC_INCT_HML;
+  expose ZC_INCT_H_HML;
+}
